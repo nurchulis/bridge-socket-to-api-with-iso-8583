@@ -25,7 +25,7 @@ DISCONNECT_MESSAGE = "!DISCONNECT"
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(ADDR)
 
-#Rintis Connection
+# Connection
 #-----------------------------------------
 HEADER_CLIENT = 64
 PORT_CLIENT = 8001 
