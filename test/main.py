@@ -284,7 +284,7 @@ def index():
     headers = request.headers
     auth = headers.get("X-Api-Key")
     if request.method == "GET":
-        return ("API Brige Rintis to Paprika Tester")
+        return ("API Tester")
 
 def authorized_check():
     headers = request.headers
