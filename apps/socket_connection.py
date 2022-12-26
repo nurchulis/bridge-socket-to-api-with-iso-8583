@@ -24,9 +24,9 @@ from acquirer.Payment import sendIncommingRequestTransactions
 
 #---Setup Connection Socket-----#
 HEADER = 64
-PORT = 2502
+PORT = 8001
 #SERVER = socket.gethostbyname(socket.gethostname())
-SERVER = '10.126.205.26'
+SERVER = '127.0.0.1'
 ADDR = (SERVER, PORT)
 FORMAT = 'utf-8'
 maxConn=100
